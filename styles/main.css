@@ -33,7 +33,7 @@ main {
     clear: left;
 }
 
-main h3 {
+header h3 {
     margin-top: 3em;
     font-size: 105%
 }
