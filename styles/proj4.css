@@ -56,11 +56,6 @@ article h3 {
     column-span: all;
 }
 
-article h4{
-    clear: both;
-    border-top: 2px solid maroon;
-}
-
 article img {
     float: left;
     margin-right: 1em;
