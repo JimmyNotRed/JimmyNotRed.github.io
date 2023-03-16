@@ -21,10 +21,6 @@ a:focus, a:hover {
     border-style: dotted solid;
 }
 
-header {
-    clear: both;
-    border-bottom: 2px solid maroon;
-}
 header h1 {
     font-size: 175%;
     color:maroon;
@@ -52,7 +48,8 @@ article {
      column-rule: 2px dotted maroon;
      column-gap: 2em;
      margin-left: 2em;
-
+     border-top: 2px solid maroon;
+    }
 }
 
 article h3 {
