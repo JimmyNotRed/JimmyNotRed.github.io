@@ -20,10 +20,7 @@ a:focus, a:hover {
     border: 3px blue;
     border-style: dotted solid;
 }
- header {
-    clear: both;
-    border-top: 2px solid maroon;
- }
+ 
 header h1 {
     font-size: 175%;
     color:maroon;
@@ -35,7 +32,10 @@ header h2 {
     color: #800000;
     text-indent: 30px;
 }
-
+header h3{
+    clear: both;
+    border-top: 2px solid maroon;
+ }
 header img {
     float: left;
 }
