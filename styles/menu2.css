@@ -16,6 +16,9 @@
 article {
     clear: both;
 }
+div {
+    column-count: 3;
+  }
 aside {
     width: 20%;
     float: right;
