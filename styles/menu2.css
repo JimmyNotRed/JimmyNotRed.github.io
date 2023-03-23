@@ -4,8 +4,7 @@
     text-align: center;
     display: block;
     width: 175px;
-    padding: 1em 0;      /* padding above and below a
-                            elements */
+    padding: 1em 0;      
     text-decoration: none;
     background-color: blue;
     color: white;
@@ -25,15 +24,26 @@ body {
     margin: 15px auto;
 }
 
-  aside {
+article {
+    width: 75%;
+    column-count: 3;
+    column-rule: 2px dotted blue;
+    column-gap: 2em;
+    margin-left: 2em;
+    }
+aside {
     width: 20%;
     float: right;
     background-color: #ffebc6;
     padding-left: 2em;
 }
-article {
-width: 75%;
+img {
+    float: left;
+    margin: right 20px;
 }
+
+
+
 aside ol {
     list-style-type: upper-roman;
 }
