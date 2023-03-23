@@ -30,16 +30,17 @@ article {
     column-gap: 2em;
     margin-left: 2em;
     }
+img {
+        float: left;
+        margin: right 20px;
+    }
 aside {
     width: 20%;
     float: right;
     background-color: #ffebc6;
     padding-left: 2em;
 }
-img {
-    float: left;
-    margin: right 20px;
-}
+
 
 
 
