@@ -36,6 +36,8 @@ p::first-letter {
 body {
     width: 75%;
     margin: 15px auto;
+    border-bottom: 1px solid blue;
+        padding: 10px;
 }
 
 article {
