@@ -1,24 +1,38 @@
-#nav_menu ul { list-style-type: none; }
-#nav_menu ul li { float: left; }
+#nav_menu ul {
+    list-style-type: none;
+}
+
+#nav_menu ul li {
+    float: left;
+}
+
 #nav_menu ul li a {
     text-align: center;
     display: block;
     width: 175px;
-    padding: 1em 0;      
+    padding: 1em 0;
     text-decoration: none;
     background-color: blue;
     color: white;
     font-weight: bold;
-    border-right: 2px solid white; }
-#nav_menu ul li a.lastitem { border-right: none; }	
-#nav_menu ul li a.current { color: yellow; }
+    border-right: 2px solid white;
+}
+
+#nav_menu ul li a.lastitem {
+    border-right: none;
+}
+
+#nav_menu ul li a.current {
+    color: yellow;
+}
 
 p::first-letter {
     font-size: 200%;
     color: #8A2BE2;
     font-weight: bold;
     font-style: italic;
-  }
+}
+
 body {
     width: 75%;
     margin: 15px auto;
@@ -31,12 +45,14 @@ article {
     column-rule: 2px dotted blue;
     column-gap: 2em;
     margin-left: 2em;
-    }
+}
 
 img {
-        float: left;
-        margin: right 20px;
-    }
+    float: left;
+    margin: right 20px;
+    border-top: 1px solid blue;
+        padding: 10px;
+}
 
 aside {
     width: 20%;
@@ -50,5 +66,10 @@ aside ol {
 }
 
 aside ul {
-    list-style-type: square; 
+    list-style-type: square;
+}
+
+footer {
+    border-top: 1px solid blue;
+        padding: 10px;
 }
