@@ -12,9 +12,7 @@
     border-right: 2px solid white; }
 #nav_menu ul li a.lastitem { border-right: none; }	
 #nav_menu ul li a.current { color: yellow; }
-article {
-    clear: both;
-}
+
 p::first-letter {
     font-size: 200%;
     color: #8A2BE2;
@@ -25,6 +23,7 @@ body {
 }
 
 article {
+    clear: both;
     width: 75%;
     column-count: 3;
     column-rule: 2px dotted blue;
