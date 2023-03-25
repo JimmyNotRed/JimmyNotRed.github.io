@@ -67,6 +67,9 @@ aside {
     background-color: #ffebc6;
     padding-left: 2em;
     position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
 }
 aside ol {
     list-style-type: upper-roman;
