@@ -85,5 +85,14 @@ html, body {
     margin-top: 0px;
     transform: rotate(-405deg);
     }
+
+    section a {
+        text-decoration: none;
+        color: white;
+    }
+      .menu a:hover,
+    .menu a.current {
+  text-decoration: underline;
+    }
     /*----end of menu*/
     
