@@ -86,7 +86,7 @@ html, body {
   transform: rotate(-405deg);
   }
 
-  section {
+  section a{
     text-decoration: none;
     color: white;
   }
@@ -109,6 +109,8 @@ html, body {
     width: 100%;
     max-width: 760px;
   }
+  @media only screen and (max-width: 700px)
+  {
   .menu-button-container {
     display: flex;
 }
@@ -152,3 +154,4 @@ html, body {
     text-align: center;
     font-size: .8em;
 }
+  }
